@@ -33,7 +33,7 @@ public class SimpleMenu extends JFrame {
         file.setMnemonic(KeyEvent.VK_F);
 
 
-        JMenuItem eMenuItem = new JMenuItem("Exit", icon);
+        JMenuItem eMenuItem = new JMenuItem("Exit now", icon);
         eMenuItem.setMnemonic(KeyEvent.VK_E);
         eMenuItem.setToolTipText("Exit application");
         eMenuItem.addActionListener((ActionEvent event) ->{
